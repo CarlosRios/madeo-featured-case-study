@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencies / build artifacts
+node_modules/
+vendor/
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local archives / exports
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+

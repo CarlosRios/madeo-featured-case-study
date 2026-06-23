@@ -1,0 +1,19 @@
+{
+  "name": "acf/madeo-featured-case-study",
+  "title": "Featured Case Study",
+  "description": "Feature a selected case study or post with a clean editorial layout.",
+  "category": "widgets",
+  "icon": "excerpt-view",
+  "keywords": ["case study", "featured", "madeo"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "anchor": true,
+    "jsx": true
+  },
+  "style": "file:./style.css",
+  "editorStyle": "file:./editor.css"
+}

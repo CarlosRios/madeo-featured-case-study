@@ -1,0 +1,11 @@
+.acf-block-preview .madeo-featured-case-study {
+	margin-block: 0;
+}
+
+.acf-block-preview .madeo-featured-case-study__title {
+	font-size: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+.acf-block-preview .madeo-featured-case-study__notice {
+	background: #f8fafc;
+}
