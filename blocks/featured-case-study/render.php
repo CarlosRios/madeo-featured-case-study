@@ -79,7 +79,11 @@ $is_valid   = $selected_post instanceof WP_Post && 'publish' === get_post_status
 			<?php endif; ?>
 
 			<div class="madeo-featured-case-study__content">
-				<p class="madeo-featured-case-study__eyebrow"><?php echo esc_html( get_post_type_object( get_post_type( $post_id ) )->labels->singular_name ?? 'Case Study' ); ?></p>
+				<?php
+				$post_type_object = get_post_type_object( get_post_type( $post_id ) );
+				$post_type_label  = $post_type_object ? $post_type_object->labels->singular_name : 'Case Study';
+				?>
+				<p class="madeo-featured-case-study__eyebrow"><?php echo esc_html( $post_type_label ); ?></p>
 				<h2 class="madeo-featured-case-study__title">
 					<a href="<?php echo esc_url( $link ); ?>"><?php echo esc_html( $heading ); ?></a>
 				</h2>

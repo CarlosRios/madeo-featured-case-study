@@ -6,7 +6,7 @@
  * Author: Carlos Rios
  * Text Domain: madeo-featured-case-study
  * Requires at least: 6.5
- * Requires PHP: 8.1
+ * Requires PHP: 7.4
  *
  * @package MadeoFeaturedCaseStudy
  */
