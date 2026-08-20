@@ -20,7 +20,7 @@ The block allows an editor to select a case study or post, choose a layout varia
 From the WordPress site root:
 
 ```bash
-cd "/Users/carlosrios/Code/STX Web Design/Sites/madeo"
+cd "/Users/carlosrios/Work/STX Web Design/Sites/madeo"
 npx @wp-playground/cli@latest start --port=9400 --skip-browser
 ```
 
